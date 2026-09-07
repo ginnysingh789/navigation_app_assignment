@@ -8,3 +8,5 @@
 ## Screenshot
 
 The screenshot of the Truck Route Visualizer is added below.
+![Uploading Screenshot 2026-09-07 at 9.25.00 PM.png…]()
+
