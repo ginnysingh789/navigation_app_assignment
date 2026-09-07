@@ -7,6 +7,7 @@ import {
   TileLayer,
 } from "react-leaflet";
 import { route } from "../../data/mock";
+import { TruckMarker } from "./TruckMarker";
 export const RouteMap = () => {
   //Takes the stop coordinates and put into positions
   const positions = route.stops.map(
@@ -55,6 +56,7 @@ export const RouteMap = () => {
               );
             })
           }
+          <TruckMarker positions={route.stops[0].corrdinates}></TruckMarker> 
         </MapContainer>
       </div>
     </section>

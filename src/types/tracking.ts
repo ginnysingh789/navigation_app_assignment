@@ -25,8 +25,8 @@ export interface Truck {
 
 export interface trackingState {
     currentPosition: Coordintaes,
-    currentSegmentIndex: string,
-    segmentProgess: string,
+    currentSegmentIndex: number,
+    segmentProgess: number,
     distanceCoveredKmh: number,
     completedStopsId: StopId[]
     isRunning: boolean,
